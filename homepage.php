@@ -4,14 +4,20 @@
 
      <title>Job Portal</title>
      <link rel="shortcut icon" type="image/png" href="images\favicon.ico"/>
-
+     
      <link rel="stylesheet" href="css/otherdesign/bootstrap.min.css">
      <link rel="stylesheet" href="css/otherdesign/owl.carousel.css">
      <link rel="stylesheet" href="css/otherdesign/owl.theme.default.min.css">
      <link rel="stylesheet" href="css/otherdesign/font-awesome.min.css">
-
+     
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/style.css">
+     <style>
+          .home_b .btn-lg{
+    font-size: 30px !important;
+    margin:40px !important;
+  }
+     </style>
 
 </head>
 <body>
@@ -28,7 +34,8 @@
 
      <!-- MENU -->
      <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-          <div class="container">
+          <!-- <div class="container"> -->
+               <div>
 
                <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -61,12 +68,12 @@
           <div class="container">
                <div class="row">
 
-                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="col-sm-12">
                          <div class="home-info">
                               <h1>WE HELP YOU TO GET YOUR DREAM COME TRUE</h1>
-                              <div>
-                                        <button type="button" onclick="location.href='adminlogin.php';" class="btn btn-primary btn-lg">Admin Login</button>
-                                        <button type="button" onclick="location.href='studentlogin.php';" class="btn btn-primary btn-lg">Student Login</button>
+                              <div class="home_b">
+                                        <button type="button" onclick="location.href='adminlogin.php';" class="btn btn-primary btn-lg cus">Admin Login</button>
+                                        <button type="button" onclick="location.href='studentlogin.php';" class="btn btn-primary btn-lg cus">Student Login</button>
                               </div>
                          </div>
                     </div>
@@ -91,16 +98,9 @@
 
                                    <div class="item">
                                         <div class="section-title">
-                                             <h1>Vishal Gami</h1>
+                                             <h1>Sandesh Shivane</h1>
                                         </div>
-                                        <h3>Pursuing B.Tech Engineering from Marwadi University 6th Semester.<br>Enrollment No: 91600103131</h3>
-                                   </div>
-
-                                   <div class="item">
-                                        <div class="section-title">
-                                             <h1>Krutarth Belani</h1>
-                                        </div>
-                                        <h3>Pursuing B.Tech Engineering from Marwadi University 6th Semester.<br>Enrollment No: 91600103028</h3>
+                                        <h3>Pursuing MCA from Sardar Patel Institute of Technology <br>Enrollment No: 2021510063</h3>
                                    </div>
 
                               </div>
@@ -146,7 +146,7 @@
                <div class="row">
                     <div class="copyright-text col-md-12 col-sm-12">
                          <div class="col-md-6 col-sm-6">
-                              <p>Copyright &copy; 2019 Designed by- Vishal Gami & Krutarth Belani
+                              <p>Copyright &copy; 2022 Designed by- Sandesh Shivane
                          </div>
                     </div>
 

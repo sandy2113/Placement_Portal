@@ -18,4 +18,5 @@ function myFunction()
 					window.location.href = "admminlogin.html";
 					return true;
 				}		
+				
 		}

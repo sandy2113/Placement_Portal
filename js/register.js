@@ -85,6 +85,7 @@ var ck_fname = /^[A-Za-z0-9]{3,20}$/;
      }
     }
     
+    
     function reportErrors(errors){
      var msg = "Please Enter Valide Data...\n";
      for (var i = 0; i<errors.length; i++) {

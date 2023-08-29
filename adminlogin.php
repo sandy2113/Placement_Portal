@@ -23,6 +23,7 @@
 			</div>
 			<div class="card-body">
 				<form method="post" action="">
+                    
 
     <?php
     $emailErr = "";

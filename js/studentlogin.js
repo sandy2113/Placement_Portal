@@ -8,6 +8,7 @@ function myFunction()
 					alert('Invalid Email Address or password');
 					return false;
 				}
+				
 
     			if(pass.test(password.value) == false)
 				{
